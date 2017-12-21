@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="473dp"
+        android:scrollbars="vertical"
+        android:id="@+id/recycler_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray_light"
+        android:gravity="center_vertical"
+        android:padding="@dimen/pad_5dp"
+        tools:context=".MainActivity"
+        android:backgroundTint="@color/white">
+
+
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="28dp"
+            android:background="@drawable/ic_menu_camera"
+            android:id="@+id/photo"
+            android:textSize="8dp" />
+
+        <EditText
+            android:id="@+id/txt"
+            style="@style/edittext_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="0.69"
+            android:hint="Type Here"
+            android:background="@drawable/rounded_edittext"
+            android:imeOptions="actionSend"
+
+            >
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            style="@style/btn"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_send" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

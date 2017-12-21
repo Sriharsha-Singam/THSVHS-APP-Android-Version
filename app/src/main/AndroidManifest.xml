@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="creations.appmaking.thsvhsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+
+
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".GlobalVariables"
+        android:allowBackup="true"
+        android:icon="@drawable/code"
+        android:label="Terre Haute South Vigo High School APP"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".THSTheApp"
+            android:label="THSVHS APP"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".socialpage2"
+            android:label="Chat Away" />
+        <activity
+            android:name=".announce"
+            android:label="Announcements" />
+        <activity
+            android:name=".bullying"
+            android:label="Report It" />
+        <activity
+            android:name=".guidance"
+            android:label="Get To Guidance" />
+        <activity
+            android:name=".map"
+            android:label="Terre Haute South Map" />
+        <activity android:name=".selectingextra" />
+        <activity
+            android:name=".settings"
+            android:label="Settings" />
+        <activity
+            android:name=".tutoring"
+            android:label="Get A Tutor" />
+        <activity android:name=".UpdateService" />
+        <activity android:name=".adminuserlayout" />
+        <activity android:name=".announceadmin" />
+        <activity android:name=".featuresadmin" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".tutoringcreate" />
+        <activity android:name=".CommentController" />
+        <activity android:name=".admincreate" />
+        <activity android:name=".adminexplicit" />
+        <activity android:name=".checkAccess" />
+        <activity android:name=".newLogin" />
+        <activity android:name=".AdsPage" />
+        <activity android:name=".tutorsearch"></activity>
+    </application>
+
+</manifest>

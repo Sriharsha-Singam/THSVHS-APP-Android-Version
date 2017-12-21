@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".socialpage2">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="0.02"
+        android:background="@android:color/holo_red_dark"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:weightSum="1"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+
+            android:dividerPadding="8dp"
+            android:orientation="horizontal"
+            android:showDividers="end">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:text="BACK"
+                android:textSize="8sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="438dp"
+                android:layout_height="wrap_content"
+                android:text="             School Wide Chat"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+
+                android:layout_gravity="right|end"
+                android:editable="false"
+                android:gravity="center"
+                android:paddingRight="@dimen/pad_5dp"
+                android:text="Reload"
+                android:textSize="8sp"
+                android:visibility="visible" />
+
+        </GridLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.87"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:divider="@null"
+
+        android:dividerHeight="10.0sp"
+
+        >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray_light"
+        android:gravity="center_vertical"
+        android:padding="@dimen/pad_5dp"
+        tools:context=".MainActivity"
+        android:backgroundTint="@color/white">
+
+
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="28dp"
+            android:background="@drawable/ic_menu_camera"
+            android:id="@+id/photo"
+            android:textSize="8dp" />
+
+        <EditText
+            android:id="@+id/txt"
+            style="@style/edittext_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="0.69"
+            android:hint="Type Here"
+            android:background="@drawable/rounded_edittext"
+            android:imeOptions="actionSend"
+
+            >
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            style="@style/btn"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_send" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="creations.appmaking.thsvhsapp.admincreate"
+    android:weightSum="1">
+
+    <AutoCompleteTextView
+        android:id="@+id/createusername"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_weight="0.06"
+        android:hint="Username"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/createemail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0.06"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/createpassword"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_weight="0.07"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/createuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="380dp"
+        android:layout_weight="0.03" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<resources>
+
+    <string name="app_name">THSVHS APP</string>
+    <string name="title_activity_thsthe_app">THSTheApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="map">map</string>
+
+
+    <string name="impossible_game">Impossible Game</string>
+    <string name="retry_button_text">Retry</string>
+    <string name="watch_video_button_text">Watch Video for 10 additional coins</string>
+    <string name="default_coin_text">Coins: 0</string>
+</resources>

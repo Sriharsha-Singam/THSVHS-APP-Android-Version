@@ -1,0 +1,7 @@
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright © 2017 Sriharsha Singam. All rights reserved.
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/social"
+
+            android:title="Events/News" />
+        <item
+            android:id="@+id/announce"
+            app:actionViewClass="android.widget.TextView"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/guidance"
+
+            android:title="Guidance" />
+        <item
+            android:id="@+id/tutor"
+
+            android:title="Tutoring" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settingsicon"
+            android:title="Settings" />
+        <item
+            android:id="@+id/map"
+
+            android:title="Map of the School" />
+        <item
+            android:id="@+id/bully"
+
+            android:title="Report It" />
+
+        <item
+            android:id="@+id/admin"
+
+            android:title="ADMINISTRATOR" />
+        <item
+            android:id="@+id/logout"
+
+            android:title="Logout" />
+
+    </group>
+
+
+
+
+
+</menu>
