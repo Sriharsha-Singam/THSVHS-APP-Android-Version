@@ -7,10 +7,8 @@ package creations.appmaking.thsvhsapp;
 public class ActiveNameUpdate {
     private String name , email;
 
-    public ActiveNameUpdate()
-    {
 
-    }
+
 
     public ActiveNameUpdate(String name ,String email) {
         this.name=name;

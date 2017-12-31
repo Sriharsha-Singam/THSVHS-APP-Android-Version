@@ -59,10 +59,9 @@ public class settings extends AppCompatActivity {
         List<String> arrayList = new ArrayList<String>();
         arrayList.add("Change Password");
         arrayList.add("Profile Picture");
-        arrayList.add("Suggestions");
-        arrayList.add("Build");
         arrayList.add("Questions");
-        arrayList.add("Add Information to Ask Your Couselor a Question Remotely");
+        arrayList.add("Have Ideas?");
+
 
         final String user1=getIntent().getExtras().get("email").toString();
 
@@ -106,11 +105,28 @@ public class settings extends AppCompatActivity {
                 {
                     profilePicture();
                 }
+                else if (item=="Have Ideas?") {
+                    ideas() ;
+                };
 
 
 
             }
         });
+    }
+    public void ideas()
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(settings.this);
+        builder.setTitle("Ideas:");
+        builder
+                .setMessage("Send your ideas to: codingths@gmail.com");
+        builder .setCancelable(true);
+        AlertDialog alertDialog = builder.create();
+
+        // show it
+        alertDialog.show();
+
+
     }
     public void profilePicture(){
         Intent i = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);

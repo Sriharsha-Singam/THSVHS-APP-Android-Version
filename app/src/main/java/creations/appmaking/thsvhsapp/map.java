@@ -75,6 +75,14 @@ public class map extends AppCompatActivity {
         });
 
     }
+    public void openaddress2 (View view){
+        goToUrl("http://s3.amazonaws.com/vnn-aws-sites/10233/files/2017/08/8821b360bdad95d7-Physical-Form.pdf");
+    }
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -14,7 +14,8 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="creations.appmaking.thsvhsapp.guidance">
+    tools:context="creations.appmaking.thsvhsapp.guidance"
+    android:background="#CFD8DC">
 
     <ListView
         android:layout_width="wrap_content"

@@ -11,7 +11,7 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@color/White"
     tools:context=".socialpage2">
 
 
@@ -46,7 +46,7 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
                 android:id="@+id/textView"
                 android:layout_width="460dp"
                 android:layout_height="wrap_content"
-                android:text="             Events/News"
+                android:text=" Events/News"
                 android:textSize="30sp" />
 
             <Button

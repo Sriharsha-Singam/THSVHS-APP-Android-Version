@@ -19,14 +19,10 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
     app:menu="@menu/thsthe_app">
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView3"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-
-
-         />
+ />
 
     <Button
         android:id="@+id/button2"
@@ -34,6 +30,14 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Download The Terre Haute South Vigo High Schoo Map!" />
+        android:text="Download School Map" />
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="openaddress2"
+        android:text="2017-18 Physical Form" />
 </RelativeLayout>

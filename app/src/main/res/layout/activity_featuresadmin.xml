@@ -19,6 +19,7 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
         android:layout_weight="0.97"
         android:stackFromBottom="true"
         android:transcriptMode="alwaysScroll"
+
         >
     </ListView>
 

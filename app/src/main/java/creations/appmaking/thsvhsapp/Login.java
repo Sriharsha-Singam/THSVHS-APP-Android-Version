@@ -135,7 +135,7 @@ public class Login extends AppCompatActivity {
 
 
                 mpd.setMessage("Logging In...");
-                mpd.setCancelable(false);
+                mpd.setCancelable(true);
                 mpd.show();
                 final String user=username.getText().toString();
                 final FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -383,9 +383,11 @@ public class Login extends AppCompatActivity {
 
     public void x()
     {
+        mpd.dismiss();
         Toast.makeText(Login.this, "There Was A Problem",
                 Toast.LENGTH_SHORT).show();
         password.setText("");
+
 
     }
     public void authentication(final String email1, final String pass,final String user)

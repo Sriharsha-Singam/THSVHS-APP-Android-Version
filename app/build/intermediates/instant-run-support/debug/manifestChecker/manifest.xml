@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright © 2017 Sriharsha Singam. All rights reserved. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="creations.appmaking.thsvhsapp"
+    android:versionCode="16"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+
+
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="creations.appmaking.thsvhsapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="creations.appmaking.thsvhsapp.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="creations.appmaking.thsvhsapp.GlobalVariables"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/code"
+        android:label="Terre Haute South Vigo High School APP"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="creations.appmaking.thsvhsapp.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="creations.appmaking.thsvhsapp.THSTheApp"
+            android:label="THSVHS APP"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="creations.appmaking.thsvhsapp.socialpage2"
+            android:label="Chat Away" />
+        <activity
+            android:name="creations.appmaking.thsvhsapp.announce"
+            android:label="Announcements" />
+        <activity
+            android:name="creations.appmaking.thsvhsapp.guidance"
+            android:label="Get To Guidance" />
+        <activity
+            android:name="creations.appmaking.thsvhsapp.map"
+            android:label="Terre Haute South Map" />
+        <activity android:name="creations.appmaking.thsvhsapp.selectingextra" />
+        <activity
+            android:name="creations.appmaking.thsvhsapp.settings"
+            android:label="Settings" />
+        <activity
+            android:name="creations.appmaking.thsvhsapp.tutoring"
+            android:label="Get A Tutor" />
+        <activity android:name="creations.appmaking.thsvhsapp.UpdateService" />
+        <activity android:name="creations.appmaking.thsvhsapp.adminuserlayout" />
+        <activity android:name="creations.appmaking.thsvhsapp.announceadmin" />
+        <activity android:name="creations.appmaking.thsvhsapp.featuresadmin" />
+
+        <service android:name="creations.appmaking.thsvhsapp.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="creations.appmaking.thsvhsapp.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="creations.appmaking.thsvhsapp.tutoringcreate" />
+        <activity android:name="creations.appmaking.thsvhsapp.CommentController" />
+        <activity android:name="creations.appmaking.thsvhsapp.admincreate" />
+        <activity android:name="creations.appmaking.thsvhsapp.adminexplicit" />
+        <activity android:name="creations.appmaking.thsvhsapp.checkAccess" />
+        <activity android:name="creations.appmaking.thsvhsapp.newLogin" />
+        <activity android:name="creations.appmaking.thsvhsapp.AdsPage" />
+        <activity android:name="creations.appmaking.thsvhsapp.tutorsearch" />
+        <activity android:name="creations.appmaking.thsvhsapp.aboutpage" />
+        <!--
+         FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="creations.appmaking.thsvhsapp" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="creations.appmaking.thsvhsapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="creations.appmaking.thsvhsapp.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

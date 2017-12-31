@@ -302,6 +302,7 @@ public class THSTheApp extends AppCompatActivity
         Firebase hot = new Firebase("//fir-learn-4991c.firebaseio.com/feature");
 
         final ListView lv=(ListView)findViewById(R.id.feature);
+        lv.setStackFromBottom(true);
 
 
 
@@ -417,11 +418,19 @@ public class THSTheApp extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.settings) {
             Intent intent = new Intent(THSTheApp.this, settings.class);
-            intent.putExtra("email",email);
+            intent.putExtra("email", email);
             intent.putExtra("UserName", user1);
             //intent.putExtra("Password", pass);
             startActivity(intent);
-        } else if (id == R.id.map) {
+        }
+        else if (id == R.id.ads) {
+            Intent intent = new Intent(THSTheApp.this, AdsPage.class);
+            intent.putExtra("UserName", user1);
+            //intent.putExtra("UserName", user1);
+            //intent.putExtra("Password", pass);
+            startActivity(intent);
+        }
+         else if (id == R.id.map) {
             Intent intent = new Intent(THSTheApp.this, map.class);
             intent.putExtra("UserName", user1);
             //intent.putExtra("Password", pass);
@@ -434,22 +443,18 @@ public class THSTheApp extends AppCompatActivity
             //intent.putExtra("Password", pass);
             startActivity(intent);
         }
-        else if (id == R.id.bully) {
-            Intent intent = new Intent(THSTheApp.this, bullying.class);
-            intent.putExtra("UserName", user1);
-            //intent.putExtra("Password", pass);
-            startActivity(intent);
-
-        }
         else if (id == R.id.logout) {
             FirebaseAuth.getInstance().signOut();
             Intent intent = new Intent(THSTheApp.this, Login.class);
-            //intent.putExtra("UserName", user1);
+            startActivity(intent);
+        }
+        else if (id == R.id.about) {
+            Intent intent = new Intent(THSTheApp.this, aboutpage.class);
+            intent.putExtra("UserName", user1);
             //intent.putExtra("Password", pass);
             startActivity(intent);
-
         }
-        if (id == R.id.admin) {
+          if (id == R.id.admin) {
             if(adminuser[0])
             {
                 Intent intent = new Intent(THSTheApp.this, adminuserlayout.class);

@@ -1,0 +1,4 @@
+#Sun Dec 31 12:29:48 EST 2017
+base.0=/Users/INT_ACC/Desktop/Unified Code Projects/THSVHS-APP-Android-Version/app/build/intermediates/transforms/dexMerger/debug/46
+path.0=classes.dex
+renamed.0=classes.dex

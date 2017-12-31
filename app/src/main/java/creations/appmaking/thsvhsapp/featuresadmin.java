@@ -43,6 +43,7 @@ public class featuresadmin extends AppCompatActivity {
         Button sendBtn = (Button) findViewById(R.id.btnSendfeature );
 
         final ListView lvannounce = (ListView)findViewById(R.id.listfeature);
+        lvannounce.setStackFromBottom(true);
         Firebase.setAndroidContext(this);
         final Firebase ref = new Firebase("https://fir-learn-4991c.firebaseio.com/feature");
 

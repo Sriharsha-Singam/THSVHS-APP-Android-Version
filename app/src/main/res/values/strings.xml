@@ -13,6 +13,9 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
 
     <string name="action_settings">Settings</string>
     <string name="map">map</string>
+    
+    <string name="admob_app_id">ca-app-pub-1264161363448798~3284414794</string>
+    <string name="interstitial_full_screen">ca-app-pub-1264161363448798/7013521212</string>
 
 
     <string name="impossible_game">Impossible Game</string>

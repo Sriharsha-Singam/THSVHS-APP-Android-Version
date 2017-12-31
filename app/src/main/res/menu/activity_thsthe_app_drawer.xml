@@ -31,19 +31,24 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
         <item
             android:id="@+id/map"
 
-            android:title="Map of the School" />
-        <item
-            android:id="@+id/bully"
-
-            android:title="Report It" />
-
+            android:title="Map/Forms" />
         <item
             android:id="@+id/admin"
 
             android:title="ADMINISTRATOR" />
         <item
-            android:id="@+id/logout"
+            android:id="@+id/ads"
 
+            android:title="Sponsors"
+            />
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/ic_info_black_18dp"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_18dp"
             android:title="Logout" />
 
     </group>

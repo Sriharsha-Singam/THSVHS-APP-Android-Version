@@ -29,7 +29,9 @@ public class announce extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_announce);
+
         final String user = getIntent().getExtras().get("UserName").toString();
+
         //ListView lv = (ListView) findViewById(R.id.listView3);
 
 
@@ -66,6 +68,7 @@ public class announce extends AppCompatActivity {
         });*/
         final ListView lv = (ListView)findViewById(R.id.listView3);
         Firebase.setAndroidContext(this);
+        lv.setStackFromBottom(true);
         final Firebase ref = new Firebase("//fir-learn-4991c.firebaseio.com/announce");
 
 

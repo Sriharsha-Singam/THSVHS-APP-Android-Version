@@ -14,53 +14,41 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
     <RelativeLayout
         android:layout_width="match_parent"
 
-        android:layout_height="520dp">
+        android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/game_title"
+            android:id="@+id/texview_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:text="@string/impossible_game"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:layout_marginLeft="100dp"
+            android:text="Thank you to our sponsors!!!!"
+            android:textAlignment="center"
+            android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/timer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/game_title"
-            android:layout_centerHorizontal="true"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <Button
-            android:id="@+id/retry_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/game_title"
-            android:layout_alignRight="@+id/game_title"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="21dp"
-            android:layout_marginRight="21dp"
-            android:text="@string/retry_button_text" />
-
-        <Button
-            android:id="@+id/watch_video"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/retry_button"
-            android:layout_centerHorizontal="true"
-            android:text="@string/watch_video_button_text" />
-
-        <TextView
-            android:id="@+id/coin_count_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+        <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_alignParentLeft="true"
-            android:text="@string/default_coin_text"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/texview_3"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="13dp"
+            android:onClick="openaddress"
+            android:src="@drawable/round_moes_logo" />
 
     </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imagebutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imagebutton1"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/hclogo" />
 
 </ScrollView>

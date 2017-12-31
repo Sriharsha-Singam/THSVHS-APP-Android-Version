@@ -196,6 +196,7 @@ public class socialpage2 extends ListActivity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
     public void setList(){
+
         Firebase.setAndroidContext(this);
         final Firebase ref = new Firebase("//fir-learn-4991c.firebaseio.com/Message");
         final ListView messageList = getListView();

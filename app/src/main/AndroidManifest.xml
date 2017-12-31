@@ -54,9 +54,6 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
             android:name=".announce"
             android:label="Announcements" />
         <activity
-            android:name=".bullying"
-            android:label="Report It" />
-        <activity
             android:name=".guidance"
             android:label="Get To Guidance" />
         <activity
@@ -92,7 +89,8 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
         <activity android:name=".checkAccess" />
         <activity android:name=".newLogin" />
         <activity android:name=".AdsPage" />
-        <activity android:name=".tutorsearch"></activity>
+        <activity android:name=".tutorsearch"/>
+        <activity android:name=".aboutpage" />
     </application>
 
 </manifest>

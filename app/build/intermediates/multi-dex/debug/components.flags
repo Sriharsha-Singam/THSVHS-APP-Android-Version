@@ -1,0 +1,88 @@
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/dd6e2f91cf989eee603092b37d904fd4/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/0b5094e5464a276732085d268e2f7f14/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.4.aar/5f0444e80e14a2f3789cadafa6812195/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-database-10.2.4.aar/d5a6a2621ee5da42633e374a1c91ac7d/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-storage-10.2.4.aar/06c16eb39d3e35ee6d54b88edc2b2240/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-crash-10.2.4.aar/ead84fce8f57da496a2f4bd74d83893e/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-auth-10.2.4.aar/884576229be6a3eeb61fddab121355c9/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.2.4.aar/0ffb314ff1ce0fdb3d93a1ed5fba3a89/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-config-10.2.4.aar/127419b8023d50b9d017b2536b92affc/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-invites-10.2.4.aar/a276b9b9ab3445305c3b8b0e84d3d870/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-10.2.4.aar/0b3e8dc9eb81cf1434bf74b44fbf208d/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/62405293e90b70d09963c883254deae2/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-ads-10.2.4.aar/e8b3a6656a6f511ef1663d09b4e0dbcd/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/bb800a4893501c92ecfd61cb76da6639/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/339a314edaadb60b6b16aa1284ae5ed8/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e4974f6a0740de18bfdabf0fdae2a9b7/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a1bd2a901d6a8d0ba5bcbb82cbde99fa/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/8689e5edb27acd6e02427952f7615319/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.4.aar/42d7746bbfdaf4180f4350eb419d6d46/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-10.2.4.aar/25dbd08f92541ff8bc10b658cd428443/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.4.aar/db98b05a0bda834476e1272bb136485a/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.2.4.aar/809c6a6edac6ba33af12d91ce7206e5a/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-common-10.2.4.aar/fab9e4c059b1a2c2a0c4eef5bc496538/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-10.2.4.aar/a9428bf8c155c0814e35f9d79bf6c2d8/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-10.2.4.aar/0cd3799088cf7f94e0ca67a5ab8bc52c/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/53fd496b6c2c26e105448603113e52f2/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/82fdfff9bd0b4c6c3a88fc9dc3c170be/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-10.2.4.aar/c0138b39bbb6d0d50c9cfaee225d8bcd/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-10.2.4.aar/fced0cc12ede67eb69692a3a55620da1/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-gass-10.2.4.aar/d19e250efe076d65262dc48bc6840f82/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/6b7baa6038f5390b5d6d4cfd1b82dd34/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/a34740c058e3277ba3eebbc31d667149/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9029bf8f04b05a2a20a5b1767961764c/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/702eea7253ae1ce582d6c6137d9c98b5/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/30d30cbe983c22d376303cb7f5a3e4c7/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8124124141b1e14bf64090caec90c5d9/jars/classes.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/580150eefc5327faa85c52287b388bf7/jars/classes.jar(**.class)
+-injars /Users/samuelford/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar(**.class)
+-injars /Users/samuelford/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar(**.class)
+-injars /Users/samuelford/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar(**.class)
+-injars /Users/samuelford/Downloads/THSVHS-APP-Android-Version-master/app/build/intermediates/classes/debug(**.class)
+-outjars /Users/samuelford/Downloads/THSVHS-APP-Android-Version-master/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/samuelford/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/samuelford/Downloads/THSVHS-APP-Android-Version-master/app/build/intermediates/multi-dex/debug/components.flags
+
+
+# Referenced at /Users/samuelford/Downloads/THSVHS-APP-Android-Version-master/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:47
+-keep class creations.appmaking.thsvhsapp.GlobalVariables {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

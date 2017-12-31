@@ -185,7 +185,7 @@ class CustomAdapter extends BaseAdapter{
 //        holder.l2.setVisibility(View.GONE);
 
         holder.date.setText(date.get(position));
-        holder.date.setTextColor(ContextCompat.getColor(context, R.color.gray));
+        holder.date.setTextColor(ContextCompat.getColor(context, R.color.black));
         holder.date.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
         holder.userin.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
         holder.tb.setBackgroundResource(R.drawable.like);

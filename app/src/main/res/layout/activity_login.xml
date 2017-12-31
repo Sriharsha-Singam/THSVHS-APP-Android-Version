@@ -10,9 +10,9 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#FFD180"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:menu="@menu/accesscode"
@@ -22,6 +22,7 @@ Copyright © 2017 Sriharsha Singam. All rights reserved.
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFD180"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingBottom="@dimen/pad_20dp"
